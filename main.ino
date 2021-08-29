@@ -2,7 +2,7 @@
 const int inputs[] = {A7, A6, A5, A4, A3, A2, A1, A0, 13, 12,
                       11, 10, 9,  8,  7,  6,  5,  4,  3,  2};
 
-// 0 will mean HIGH or closed; if 1 or LOW, this means the window/door has been
+// 1 will mean HIGH or closed; if 0 or LOW, this means the window/door has been
 // opened
 bool states[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
@@ -37,15 +37,17 @@ void sendStateSummary() {
         Serial.print(" s");
         Serial.print(states[x]);
         Serial.print(" ");
-    }`
+    }
     Serial.println();
 }
+
+// * * * * * * program follows * * * * * *
 
 void setup() {
     for (int x = 0; x < 20; x++) {
         pinMode(inputs[x], INPUT);
     }
-    Serial.begin(9600);
+    Serial.begin(115200);
 }
 
 void loop() {
