@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "mqtt": "^4.3.7",
     "npm": "^9.2.0",
     "serialport": "^10.5.0"
   }
