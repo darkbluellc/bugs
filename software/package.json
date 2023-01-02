@@ -1,0 +1,16 @@
+{
+  "name": "bugs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Bruce <dan@ddbruce.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "npm": "^9.2.0",
+    "serialport": "^10.5.0"
+  }
+}

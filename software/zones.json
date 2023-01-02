@@ -1,0 +1,113 @@
+[
+  {
+    "zone": 0,
+    "active": 1,
+    "location": "Dining Room",
+    "name": "Slider"
+  },
+  {
+    "zone": 1,
+    "active": 1,
+    "location": "Basement",
+    "name": "Closet"
+  },
+  {
+    "zone": 2,
+    "active": 1,
+    "location": "Basement",
+    "name": "Interior Door"
+  },
+  {
+    "zone": 3,
+    "active": 1,
+    "location": "Kitchen",
+    "name": "Sink Window"
+  },
+  {
+    "zone": 4,
+    "active": 1,
+    "location": "Garage",
+    "name": "Side Door"
+  },
+  {
+    "zone": 5,
+    "active": 1,
+    "location": "Garage",
+    "name": "House Door"
+  },
+  {
+    "zone": 6,
+    "active": 1,
+    "name": "Front Door"
+  },
+  {
+    "zone": 7,
+    "active": 1,
+    "location": "Kitchen",
+    "name": "Slider"
+  },
+  {
+    "zone": 8,
+    "active": 1,
+    "location": "Garage",
+    "name": "Basement Door"
+  },
+  {
+    "zone": 9,
+    "active": 0
+  },
+  {
+    "zone": 10,
+    "active": 0
+  },
+  {
+    "zone": 11,
+    "active": 0
+  },
+  {
+    "zone": 12,
+    "active": 0
+  },
+  {
+    "zone": 13,
+    "active": 1,
+    "location": "Garage",
+    "name": "Overhead Door"
+  },
+  {
+    "zone": 14,
+    "active": 1,
+    "location": "Dining Room",
+    "name": "Window"
+  },
+  {
+    "zone": 15,
+    "active": 1,
+    "location": "Living Room",
+    "name": "Window"
+  },
+  {
+    "zone": 16,
+    "active": 1,
+    "location": "Kitchen",
+    "name": "Side Window"
+  },
+  {
+    "zone": 17,
+    "active": 1,
+    "location": "Guest Room",
+    "name": "Window"
+  },
+  {
+    "zone": 18,
+    "active": 1,
+    "location": "Office",
+    "name": "Window"
+  },
+  {
+    "zone": 19,
+    "active": 1,
+    "location": "Master Bedroom",
+    "name": "Window"
+  }
+]
